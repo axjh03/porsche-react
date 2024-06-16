@@ -1,0 +1,39 @@
+.car-image {
+    width: 201.93px;
+    height: 113.5px;
+    border-radius: 10px;
+}
+
+.car-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.car-description {
+    font-size: 1em;
+    text-align: center;
+    vertical-align: text-top;
+    align-self: flex-start;
+}
+
+
+.car-price {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: text-bottom;
+    margin-top: auto;
+}
+
+.car-card {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    max-width:25%; /* Changed max-width to maxWidth */
+    padding: 10px; /* Adjust padding */
+    margin: 0.3%; /* Adjust margin */
+    border-radius: 10px; /* Adjust border radius */
+}

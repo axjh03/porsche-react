@@ -1,0 +1,32 @@
+.info h2 {
+    font-size: 1.8em;
+  }
+  
+  .info .button-container {
+    display: flex;
+    gap: 1em; /* Adjust the gap as needed */
+
+  }
+
+  .info .button-container button{
+    border: none;
+    background-color: white;
+    max-width: fit-content;
+    text-align: left;
+    height: 2.5em;
+    border-radius: 12px;
+    padding: 0% 10px;
+}
+
+
+.info .button-container .active{
+    background-color: rgba(158, 158, 158, 0.979);
+    color: white;
+}
+
+.info {
+  margin-left: 4em;
+  margin-right: 7em;
+}
+  
+  
