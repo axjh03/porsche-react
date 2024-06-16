@@ -18,7 +18,7 @@ function App() {
     // after 8 seconds set loading to false
     setTimeout(()=>{
       setLoading(false);
-    }, 2000); // 8000ms = 8s
+    }, 3000); // 300ms = 3s
   }, []); // Add an empty dependency array
 
    return (
